@@ -13,25 +13,25 @@ import { sequelize } from "./models/db.js";
 
 const defaultAccounts = [
   {
-    name: "System Administrator",
-    email: "admin@msu.edu.ph",
-    password: "Admin@12345",
+    name: "Administrator",
+    email: "admin@admin.com",
+    password: "admin123",
     studentId: null,
     role: "admin",
     status: "active"
   },
   {
-    name: "Registrar Office",
-    email: "registrar@registrar.msu",
-    password: "Registrar@12345",
+    name: "Registrar",
+    email: "registrar@reg.com",
+    password: "reg123",
     studentId: null,
     role: "registrar",
     status: "active"
   },
   {
     name: "Juan Dela Cruz",
-    email: "student@gmail.com",
-    password: "Student@12345",
+    email: "student@student.com",
+    password: "student123",
     studentId: "2024-00001",
     role: "student",
     status: "active"

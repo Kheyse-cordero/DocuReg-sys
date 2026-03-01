@@ -14,7 +14,7 @@ import { sequelize } from "./models/db.js";
 const defaultAccounts = [
   {
     name: "Administrator",
-    email: "admin@admin.com",
+    email: "admin@admin.edu.ph",
     password: "admin123",
     studentId: null,
     role: "admin",
@@ -22,7 +22,7 @@ const defaultAccounts = [
   },
   {
     name: "Registrar",
-    email: "registrar@reg.com",
+    email: "registrar@registrar.edu.ph",
     password: "reg123",
     studentId: null,
     role: "registrar",
@@ -30,7 +30,7 @@ const defaultAccounts = [
   },
   {
     name: "Juan Dela Cruz",
-    email: "student@student.com",
+    email: "student@student.edu.ph",
     password: "student123",
     studentId: "2024-00001",
     role: "student",

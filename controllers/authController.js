@@ -71,7 +71,7 @@ export const registerUser = async (req, res) => {
     const emailPrefix = emailLower.split('@')[0];
     
     // Admin email domains only
-    const adminDomains = ['msu.edu.ph', 'mindoro.edu.ph', 'admin.msu'];
+    const adminDomains = ['msu.edu.ph', 'mindoro.edu.ph', 'admin.msu', 'admin.edu.ph'];
     const registrarDomains = ['registrar.msu', 'registrar.edu.ph'];
     
     // Check if domain exactly matches admin or registrar domains
